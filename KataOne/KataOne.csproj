@@ -42,6 +42,8 @@
         <Compile Include="Enemy.cs" />
         <Compile Include="HealingCalculator.cs" />
         <Compile Include="Item.cs" />
+        <Compile Include="LSPExample\LSPNonSolid.cs" />
+        <Compile Include="LSPExample\LSPSolid.cs" />
         <Compile Include="MagicFlowers.cs" />
         <Compile Include="Meat.cs" />
         <Compile Include="OCPExample\OCPNonSolid.cs" />
