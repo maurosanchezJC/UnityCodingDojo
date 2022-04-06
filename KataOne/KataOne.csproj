@@ -39,21 +39,23 @@
         <Reference Include="System.Xml" />
     </ItemGroup>
     <ItemGroup>
-        <Compile Include="Enemy.cs" />
-        <Compile Include="HealingCalculator.cs" />
+        <Compile Include="DIPExample\DIPNonSolid.cs" />
+        <Compile Include="DIPExample\DIPSolid.cs" />
+        <Compile Include="Exercise1\Enemy.cs" />
+        <Compile Include="Exercise1\HealingCalculator.cs" />
+        <Compile Include="Exercise1\Item.cs" />
+        <Compile Include="Exercise1\MagicFlowers.cs" />
+        <Compile Include="Exercise1\Meat.cs" />
+        <Compile Include="Exercise1\Player.cs" />
+        <Compile Include="Exercise1\Potion.cs" />
+        <Compile Include="Exercise1\Program.cs" />
+        <Compile Include="Exercise1\Prop.cs" />
         <Compile Include="ISPExample\ISPNonSolid.cs" />
         <Compile Include="ISPExample\ISPSolid.cs" />
-        <Compile Include="Item.cs" />
         <Compile Include="LSPExample\LSPNonSolid.cs" />
         <Compile Include="LSPExample\LSPSolid.cs" />
-        <Compile Include="MagicFlowers.cs" />
-        <Compile Include="Meat.cs" />
         <Compile Include="OCPExample\OCPNonSolid.cs" />
         <Compile Include="OCPExample\OCPSolid.cs" />
-        <Compile Include="Player.cs" />
-        <Compile Include="Potion.cs" />
-        <Compile Include="Program.cs" />
-        <Compile Include="Prop.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
         <Compile Include="SRPExample\SRPNonSolid.cs" />
         <Compile Include="SRPExample\SRPSolid.cs" />
