@@ -89,6 +89,7 @@ namespace UnityCodingDojo.Dojo1.Exercise2
                 return result;
             }
             
+            Console.WriteLine("Invalid input! Select an index from the list!");
             return GetAbilityIndexByInput(isValidInput);
         }
 
