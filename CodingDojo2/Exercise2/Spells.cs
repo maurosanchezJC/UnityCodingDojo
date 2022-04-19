@@ -4,6 +4,7 @@ namespace UnityCodingDojo.Dojo1.Exercise2
 {
     public abstract class AbstractAbility
     {
+        public abstract string AbilityName { get; }
         public abstract int AttackPoints { get; set; }
         public abstract int ManaCost { get; set; }
         public abstract void Execute(AbstractHero owner, AbstractHero target);
@@ -11,6 +12,7 @@ namespace UnityCodingDojo.Dojo1.Exercise2
 
     public class Attack : AbstractAbility
     {
+        public override string AbilityName => "Attack";
         public override int AttackPoints { get; set; }
         public override int ManaCost { get; set; }
         public override void Execute(AbstractHero owner, AbstractHero target)
@@ -22,6 +24,8 @@ namespace UnityCodingDojo.Dojo1.Exercise2
     
     public class FireAttack : AbstractAbility
     {
+        public override string AbilityName => "Fire Ball";
+
         public override int AttackPoints { get; set; }
         public override int ManaCost { get; set; }
         public override void Execute(AbstractHero owner, AbstractHero target)
@@ -40,6 +44,7 @@ namespace UnityCodingDojo.Dojo1.Exercise2
 
     public class PowerUp : AbstractAbility
     {
+        public override string AbilityName => "Atk Up";
         public override int AttackPoints { get; set; }
         public override int ManaCost { get; set; }
         public override void Execute(AbstractHero owner, AbstractHero target)

@@ -65,7 +65,7 @@ namespace UnityCodingDojo.Dojo1.Exercise2
         {
             Console.Write($"HP: {player.LifePoints} \n");
 
-            Console.WriteLine($"1 - {player.DefaultAbility.GetType()}");
+            Console.WriteLine($"1 - {player.DefaultAbility.AbilityName}");
 
             int abilitiesAmount = 0;
             if (player.Abilities != null)
@@ -73,7 +73,7 @@ namespace UnityCodingDojo.Dojo1.Exercise2
                 abilitiesAmount = player.Abilities.Length;
                 for (int i = 0; i < abilitiesAmount; i++)
                 {
-                    Console.WriteLine($"{i + 2} - {player.Abilities[i].GetType()}");
+                    Console.WriteLine($"{i + 2} - {player.Abilities[i].AbilityName}");
                 }
             }
 
@@ -83,6 +83,7 @@ namespace UnityCodingDojo.Dojo1.Exercise2
 
         private int GetAbilityIndexByInput(Func<int, bool> isValidInput)
         {
+            Console.WriteLine("Choose your ability:");
             string input = Console.ReadLine();
             if (Int32.TryParse(input, out int result) && isValidInput(result))
             {
