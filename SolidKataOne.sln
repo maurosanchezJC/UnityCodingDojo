@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodingDojo1", "CodingDojo1\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodingDojo2", "CodingDojo2\CodingDojo2.csproj", "{C7A68AC6-50EA-486C-A83F-80A26FA43689}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodingDojo3", "CodingDojo3\CodingDojo3.csproj", "{304E4073-AB80-41FE-8279-B8F4FEAE5217}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{C7A68AC6-50EA-486C-A83F-80A26FA43689}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C7A68AC6-50EA-486C-A83F-80A26FA43689}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C7A68AC6-50EA-486C-A83F-80A26FA43689}.Release|Any CPU.Build.0 = Release|Any CPU
+		{304E4073-AB80-41FE-8279-B8F4FEAE5217}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{304E4073-AB80-41FE-8279-B8F4FEAE5217}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{304E4073-AB80-41FE-8279-B8F4FEAE5217}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{304E4073-AB80-41FE-8279-B8F4FEAE5217}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
