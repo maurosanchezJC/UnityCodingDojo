@@ -15,9 +15,13 @@ pipeline {
           }
         }
 
-        stage('') {
+        stage('error') {
           steps {
-            readFile './CodingDojo3/Exercise/PlayerPrinter.cs'
+            sh '''yourfilenames=`ls`
+for eachfile in $yourfilenames
+do
+   echo $eachfile
+done'''
           }
         }
 
