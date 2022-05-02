@@ -7,9 +7,26 @@ pipeline {
       }
     }
 
-    stage('') {
+    stage('Hello World') {
+      parallel {
+        stage('Hello World') {
+          steps {
+            echo 'Hello World!'
+          }
+        }
+
+        stage('') {
+          steps {
+            readFile './CodingDojo3/Exercise/PlayerPrinter.cs'
+          }
+        }
+
+      }
+    }
+
+    stage('Final') {
       steps {
-        echo 'hola'
+        echo 'Job finished successfully'
       }
     }
 
