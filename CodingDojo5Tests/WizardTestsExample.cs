@@ -1,5 +1,4 @@
-﻿using System;
-using NUnit.Framework;
+﻿using NUnit.Framework;
 using CodingDojo5;
 
 namespace CodingDojo5Tests
@@ -7,7 +6,7 @@ namespace CodingDojo5Tests
     [TestFixture]
     public class WizardTestsExample
     {
-        private Wizard wizard;
+        private Wizard wizard = new Wizard();
         
         [SetUp]
         public void SetupWizard()
