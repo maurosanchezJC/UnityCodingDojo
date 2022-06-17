@@ -53,6 +53,9 @@
         <Compile Include="Example2\EnvironmentHandler.cs" />
         <Compile Include="Example2\StubWeatherService.cs" />
         <Compile Include="Example2\WeatherService.cs" />
+        <Compile Include="Exercise\BinaryMemoryCard.cs" />
+        <Compile Include="Exercise\IMemoryCard.cs" />
+        <Compile Include="Exercise\StateHandler.cs" />
         <Compile Include="Program.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
     </ItemGroup>
