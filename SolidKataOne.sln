@@ -26,6 +26,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodingDojo9", "CodingDojo9\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodingDojo9Tests", "CodingDojo9Tests\CodingDojo9Tests.csproj", "{6D2A6886-5BA0-4236-AC3D-5E05AC4AB93B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodingDojo12", "CodingDojo12\CodingDojo12.csproj", "{D7849A58-E9B8-43B5-ABB7-10EFD67EF3E8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -84,5 +86,9 @@ Global
 		{6D2A6886-5BA0-4236-AC3D-5E05AC4AB93B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6D2A6886-5BA0-4236-AC3D-5E05AC4AB93B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6D2A6886-5BA0-4236-AC3D-5E05AC4AB93B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7849A58-E9B8-43B5-ABB7-10EFD67EF3E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7849A58-E9B8-43B5-ABB7-10EFD67EF3E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7849A58-E9B8-43B5-ABB7-10EFD67EF3E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7849A58-E9B8-43B5-ABB7-10EFD67EF3E8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
